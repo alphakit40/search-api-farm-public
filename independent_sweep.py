@@ -61,6 +61,10 @@ def main() -> int:
                 # already-redacted values keep a vendor prefix + …REDACTED marker
                 if name in ("vendor", "hex_long", "kv_secret") and ("…" in ctx or "REDACTED" in ctx):
                     continue
+                # vendor prefix followed by regex syntax is a pattern definition,
+                # not a key: tvly-[A-Za-z0-9-]{10,} in the scanner's own source
+                if name == "vendor" and m.end() < len(text) and text[m.end()] in "[{(":
+                    continue
                 # f-string templates and doc placeholders are not credentials
                 if name == "url_userinfo" and ("{" in val or "user:pass@" in val):
                     continue
