@@ -1,0 +1,22 @@
+# secrets — never commit
+secrets.env
+*.env
+!secrets.env.example
+.env.local
+
+# local run artifacts (audit: *_result.json did NOT cover results.json/dashboard.json)
+*_result.json
+*_results.json
+results*.json
+dashboard.json
+verify_results.json
+*_used.txt
+*_state.json
+*_state2.json
+brd_cookies.py
+brd_creds.json
+*.html
+!dashboard/index.html
+__pycache__/
+*.pyc
+.DS_Store
