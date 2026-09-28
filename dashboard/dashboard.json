@@ -1,0 +1,524 @@
+{
+  "generated": "",
+  "providers": [
+    {
+      "svc": "anticaptcha-bal",
+      "display": "ANTICAPTCHA balance",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "svc": "ANTICAPTCHA",
+        "key": "7a5e25…REDACTED",
+        "balance": "PAYG"
+      },
+      "status": "balance",
+      "limit": ""
+    },
+    {
+      "svc": "anticaptcha-bal",
+      "display": "ANTICAPTCHA balance",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "svc": "ANTICAPTCHA",
+        "key": "fa6e62…REDACTED",
+        "balance": "PAYG"
+      },
+      "status": "balance",
+      "limit": ""
+    },
+    {
+      "svc": "anticaptcha-bal",
+      "display": "ANTICAPTCHA balance",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "svc": "ANTICAPTCHA",
+        "key": "ec2a10…REDACTED",
+        "balance": "PAYG"
+      },
+      "status": "balance",
+      "limit": ""
+    },
+    {
+      "svc": "anticaptcha-bal",
+      "display": "ANTICAPTCHA balance",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "svc": "ANTICAPTCHA",
+        "key": "df52ca…REDACTED",
+        "balance": "PAYG"
+      },
+      "status": "balance",
+      "limit": ""
+    },
+    {
+      "svc": "anticaptcha-bal",
+      "display": "ANTICAPTCHA balance",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "svc": "ANTICAPTCHA",
+        "key": "009af7…REDACTED",
+        "balance": "PAYG"
+      },
+      "status": "balance",
+      "limit": ""
+    },
+    {
+      "svc": "anticaptcha-bal",
+      "display": "ANTICAPTCHA balance",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "svc": "ANTICAPTCHA",
+        "key": "03ea83…REDACTED",
+        "balance": "PAYG"
+      },
+      "status": "balance",
+      "limit": ""
+    },
+    {
+      "svc": "anticaptcha-bal",
+      "display": "ANTICAPTCHA balance",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "svc": "ANTICAPTCHA",
+        "key": "e8c877…REDACTED",
+        "balance": "PAYG"
+      },
+      "status": "balance",
+      "limit": ""
+    },
+    {
+      "svc": "anticaptcha-bal",
+      "display": "ANTICAPTCHA balance",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "svc": "ANTICAPTCHA",
+        "key": "03698f…REDACTED",
+        "balance": "PAYG"
+      },
+      "status": "balance",
+      "limit": ""
+    },
+    {
+      "svc": "apilio",
+      "display": "apilio",
+      "key": "rotato…REDACTED",
+      "key_preview": "rotator-local-pool",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "brave",
+      "display": "brave",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "attempts": 1
+      },
+      "status": "none",
+      "limit": ""
+    },
+    {
+      "svc": "chuan",
+      "display": "chuan",
+      "key": "rotato…REDACTED",
+      "key_preview": "rotator-local-pool",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "dashscope-all",
+      "display": "DashScope keys file",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "count": 311
+      },
+      "status": "pool",
+      "limit": ""
+    },
+    {
+      "svc": "dashscope-pool",
+      "display": "DashScope (LLM)",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "count": 38
+      },
+      "status": "pool",
+      "limit": ""
+    },
+    {
+      "svc": "exa",
+      "display": "exa",
+      "key": "e5443a…REDACTED",
+      "key_preview": "e5443a78-49f…a0ca",
+      "meta": {
+        "email": "h.ilja…REDACTED",
+        "verify": "None"
+      },
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "exa",
+      "display": "exa",
+      "key": "56f962…REDACTED",
+      "key_preview": "56f962d6-ed4…8cc3",
+      "meta": {
+        "email": "pixelp…REDACTED",
+        "verify": "None"
+      },
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "exa",
+      "display": "exa",
+      "key": "9e99d2…REDACTED",
+      "key_preview": "9e99d2b9-287…cfad",
+      "meta": {
+        "email": "andy.n…REDACTED",
+        "verify": "None"
+      },
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "exa2",
+      "display": "exa2",
+      "key": "e5443a…REDACTED",
+      "key_preview": "e5443a78-49f…a0ca",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "exa3",
+      "display": "exa3",
+      "key": "56f962…REDACTED",
+      "key_preview": "56f962d6-ed4…8cc3",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "exa4",
+      "display": "exa4",
+      "key": "9e99d2…REDACTED",
+      "key_preview": "9e99d2b9-287…cfad",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "exa5",
+      "display": "exa5",
+      "key": "957d87…REDACTED",
+      "key_preview": "957d87d2-401…18a2",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "exa6",
+      "display": "exa6",
+      "key": "3f4297…REDACTED",
+      "key_preview": "3f429745-378…7445",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "firecrawl",
+      "display": "firecrawl",
+      "key": "fc-a06…REDACTED",
+      "key_preview": "fc-a0608aba6…03c8",
+      "meta": {
+        "email": "t.e.19…REDACTED",
+        "verify": "None"
+      },
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "firecrawl-credits",
+      "display": "Firecrawl total credits",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "sum": 551471
+      },
+      "status": "pool",
+      "limit": ""
+    },
+    {
+      "svc": "firecrawl-pool",
+      "display": "Firecrawl keys (pool)",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "count": 52
+      },
+      "status": "pool",
+      "limit": "500 cr/mo each"
+    },
+    {
+      "svc": "flushapi",
+      "display": "flushapi",
+      "key": "rotato…REDACTED",
+      "key_preview": "rotator-local-pool",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "gptge",
+      "display": "gptge",
+      "key": "rotato…REDACTED",
+      "key_preview": "rotator-local-pool",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "harvest-total",
+      "display": "All harvested API keys",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "captcha": 209,
+        "config": 1,
+        "llm": 370,
+        "misc": 16,
+        "search": 51,
+        "telegram": 6
+      },
+      "status": "pool",
+      "limit": "653 keys"
+    },
+    {
+      "svc": "hoplite",
+      "display": "hoplite",
+      "key": "sk-hop…REDACTED",
+      "key_preview": "sk-hoplite-proxy",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "jina",
+      "display": "jina",
+      "key": "jina_f…REDACTED",
+      "key_preview": "jina_fc0e9dc…QLmd",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "jucodex",
+      "display": "jucodex",
+      "key": "8RkMx2…REDACTED",
+      "key_preview": "8RkMx2lIanon…IvGd",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "keyfarm",
+      "display": "keyfarm",
+      "key": "keyfar…REDACTED",
+      "key_preview": "keyfarm-pool-rotated",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "moxin",
+      "display": "moxin",
+      "key": "ckREop…REDACTED",
+      "key_preview": "ckREopQJtnCp…fDAL",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "notion",
+      "display": "notion",
+      "key": "sk-not…REDACTED",
+      "key_preview": "sk-notion-gateway",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "octopusx",
+      "display": "octopusx",
+      "key": "octopu…REDACTED",
+      "key_preview": "octopusx-poo…ated",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "oneorigin",
+      "display": "oneorigin",
+      "key": "rotato…REDACTED",
+      "key_preview": "rotator-local-pool",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "plane",
+      "display": "plane",
+      "key": "sk-plane",
+      "key_preview": "sk-plane",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "runinfra",
+      "display": "runinfra",
+      "key": "RUNINF…REDACTED",
+      "key_preview": "RUNINFRA_GATEWAY_KEY",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "search1api",
+      "display": "search1api",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "attempts": 5
+      },
+      "status": "none",
+      "limit": ""
+    },
+    {
+      "svc": "searchapi",
+      "display": "searchapi",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "attempts": 4
+      },
+      "status": "none",
+      "limit": ""
+    },
+    {
+      "svc": "serpapi",
+      "display": "serpapi",
+      "key": "617ab9…REDACTED",
+      "key_preview": "617ab9e6809e…1213",
+      "meta": {
+        "email": "daniel…REDACTED",
+        "verify": "429 {error: 'Your account needs to have a verified phone num"
+      },
+      "status": "account created+email confirmed; free plan requires PHONE VERIFICATION -> search API hard 429",
+      "limit": ""
+    },
+    {
+      "svc": "serper",
+      "display": "serper",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "attempts": 41
+      },
+      "status": "none",
+      "limit": ""
+    },
+    {
+      "svc": "serpwrap",
+      "display": "serpwrap",
+      "key": "1957e3…REDACTED",
+      "key_preview": "1957e3cd-a98…d9c5",
+      "meta": {
+        "email": "christ…REDACTED",
+        "verify": "credits 200 :: {\"credits\":{\"charged\":0,\"refunded\":0,\"remaini"
+      },
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "somaapi",
+      "display": "somaapi",
+      "key": "rotato…REDACTED",
+      "key_preview": "rotator-local-pool",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "tavily",
+      "display": "tavily",
+      "key": "",
+      "key_preview": "",
+      "meta": {
+        "attempts": 1
+      },
+      "status": "none",
+      "limit": ""
+    },
+    {
+      "svc": "tavily2",
+      "display": "tavily2",
+      "key": "tvly-d…REDACTED",
+      "key_preview": "tvly-dev-2dh…B2Ka",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "vibebuild",
+      "display": "vibebuild",
+      "key": "536634…REDACTED",
+      "key_preview": "536634b0b5c8…d2ed",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "vveai",
+      "display": "vveai",
+      "key": "rotato…REDACTED",
+      "key_preview": "rotator-local-pool",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "xai",
+      "display": "xai",
+      "key": "g2a_7c…REDACTED",
+      "key_preview": "g2a_7c502f83…A8Tq",
+      "meta": {},
+      "status": "ok",
+      "limit": ""
+    },
+    {
+      "svc": "you",
+      "display": "you",
+      "key": "ydc-sk…REDACTED",
+      "key_preview": "ydc-sk-95b38…5cee",
+      "meta": {
+        "email": "zweima…REDACTED",
+        "verify": "{'ok': True, 'status': 200, 'web_results': 3, 'endpoint': 'P"
+      },
+      "status": "ok",
+      "limit": ""
+    }
+  ]
+}
