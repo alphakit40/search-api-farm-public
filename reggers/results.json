@@ -1,0 +1,983 @@
+{
+  "generated": "",
+  "results": [
+    {
+      "provider": "brave",
+      "email": "andrea…REDACTED",
+      "status": "blocked: plan activation requires payment method (Brave free tier discontinued Feb 2026; plans are Prepaid $5/1k requests; 'Get started' -> ?/subscribe needs billing/card for anti-fraud per Brave docs). Account WAS created, email verified (code 293432), login OK (session cookie search_api_users_auth), dashboard reached; /app/keys shows 'activate a plan before generating API keys'.",
+      "key": "",
+      "verify": "no key to verify; paused at plan gate (product change vs contract: 'free plan 2000req/mo no card' no longer exists for new signups). Script tmp/reggers/brave_reg.py automates register->verify->login; key step needs an activated plan."
+    },
+    {
+      "provider": "exa",
+      "email": "maikgr…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": ""
+    },
+    {
+      "provider": "exa",
+      "email": "alexan…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": ""
+    },
+    {
+      "provider": "exa",
+      "email": "tobenn…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": ""
+    },
+    {
+      "provider": "exa",
+      "email": "storck…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": ""
+    },
+    {
+      "provider": "exa",
+      "email": "woody0…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": ""
+    },
+    {
+      "provider": null,
+      "email": "thorst…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "das_ol…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "pohle-…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "stepha…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "janlei…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "perfek…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "leon-f…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "lpt-yo…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "jo-win…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "fussga…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "buc-de…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "robert…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "tierpo…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "ausend…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "thelit…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "derfle…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "tierfu…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "a-dand…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "jenny-…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "oettin…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "neu-pb…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "toml-m…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "matthi…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "a-zcle…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "opel-j…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "f.sieh…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "haha.c…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "schult…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "guente…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "yasmin…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "mmbieh…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "karste…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "andre-…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "lisaba…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "nicole…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "kep231…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "we-bre…REDACTED",
+      "status": "invalid-tracking-pixel",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "fafu19…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "susann…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "h.ilja…REDACTED",
+      "status": "ok",
+      "key": "e5443a…REDACTED",
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "pixelp…REDACTED",
+      "status": "ok",
+      "key": "56f962…REDACTED",
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "andy.n…REDACTED",
+      "status": "ok",
+      "key": "9e99d2…REDACTED",
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "reneme…REDACTED",
+      "status": "ok",
+      "key": "957d87…REDACTED",
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "troni2…REDACTED",
+      "status": "ok",
+      "key": "3f4297…REDACTED",
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "andre-…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": "firecrawl",
+      "email": "valent…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": "firecrawl",
+      "email": "flemmi…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": "firecrawl",
+      "email": "t.e.19…REDACTED",
+      "status": "ok",
+      "key": "fc-a06…REDACTED",
+      "verify": null
+    },
+    {
+      "provider": "search1api",
+      "email": "niclas…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": "search1api",
+      "email": "ganz_l…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": "search1api",
+      "email": "mmpriv…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": "search1api",
+      "email": "avipla…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": null,
+      "email": "neuman…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": "searchapi",
+      "email": "hugl21…REDACTED",
+      "status": "signup_failed: SearchApi\nAPIs\nPricing\nMore\nSign in\nSign up\nSign up\nOr log in to your account\n2 errors prohibited this user from being saved:\nPassword can't be blank\nRecaptcha verification failed, please try again.\nF",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": "searchapi",
+      "email": "hure.m…REDACTED",
+      "status": "signup_failed: SearchApi\nAPIs\nPricing\nMore\nSign in\nSign up\nSign up\nOr log in to your account\n2 errors prohibited this user from being saved:\nPassword can't be blank\nRecaptcha verification failed, please try again.\nF",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": "searchapi",
+      "email": "herbel…REDACTED",
+      "status": "signup_failed: SearchApi\nAPIs\nPricing\nMore\nSign in\nSign up\nSign up\nOr log in to your account\n2 errors prohibited this user from being saved:\nPassword can't be blank\nRecaptcha verification failed, please try again.\nF",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": "searchapi",
+      "email": "rosmar…REDACTED",
+      "status": "signup_failed: SearchApi\nAPIs\nPricing\nMore\nSign in\nSign up\nSign up\nOr log in to your account\n2 errors prohibited this user from being saved:\nPassword can't be blank\nRecaptcha verification failed, please try again.\nF",
+      "key": null,
+      "verify": null
+    },
+    {
+      "provider": "serpapi",
+      "email": "daniel…REDACTED",
+      "status": "no key candidate passed live verify",
+      "key": null,
+      "verify": "verify error: HTTPError: HTTP Error 401: Unauthorized"
+    },
+    {
+      "provider": "serpapi",
+      "email": "karste…REDACTED",
+      "status": "no key candidate passed live verify",
+      "key": null,
+      "verify": "verify error: HTTPError: HTTP Error 401: Unauthorized"
+    },
+    {
+      "provider": "serpapi",
+      "email": "christ…REDACTED",
+      "status": "no key candidate passed live verify",
+      "key": null,
+      "verify": "verify error: HTTPError: HTTP Error 401: Unauthorized"
+    },
+    {
+      "provider": "serpapi",
+      "email": "daniel…REDACTED",
+      "status": "account created+email confirmed; free plan requires PHONE VERIFICATION -> search API hard 429",
+      "key": "617ab9…REDACTED",
+      "verify": "429 {error: 'Your account needs to have a verified phone number. Visit: https://serpapi.com/users/welcome'}"
+    },
+    {
+      "provider": "serper",
+      "email": "mimi-p…REDACTED",
+      "status": "fail: TimeoutError: Page.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"input[name=\\\"password1\\\"]\")\n",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "timong…REDACTED",
+      "status": "fail: TimeoutError: Page.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"input[name=\\\"password1\\\"]\")\n",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "petraw…REDACTED",
+      "status": "fail: TimeoutError: Page.fill: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"input[name=\\\"password1\\\"]\")\n",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "gunner…REDACTED",
+      "status": "fail: TypeError: object NoneType can't be used in 'await' expression",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "andrea…REDACTED",
+      "status": "fail: RuntimeError: no verify email for andrea…REDACTED (register failed or mail lost)",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "fb2103…REDACTED",
+      "status": "fail: TypeError: object NoneType can't be used in 'await' expression",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "stepha…REDACTED",
+      "status": "fail: Error: Page.evaluate: TypeError: Illegal invocation\n    at eval (eval at evaluate (:303:30), <anonymous>:6:24)\n    at UtilitySc",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "jkfand…REDACTED",
+      "status": "fail: Error: Page.evaluate: TypeError: Illegal invocation\n    at eval (eval at evaluate (:303:30), <anonymous>:6:24)\n    at UtilitySc",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "albert…REDACTED",
+      "status": "fail: Error: Page.evaluate: TypeError: Illegal invocation\n    at eval (eval at evaluate (:303:30), <anonymous>:6:24)\n    at UtilitySc",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "peterb…REDACTED",
+      "status": "fail: RuntimeError: no verify email for peterb…REDACTED (register failed or mail lost; toast='')",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "daniel…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "noobi8…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "habbo.…REDACTED",
+      "status": "fail: RuntimeError: no verify email for habbo.…REDACTED (register failed or mail lost; toast='')",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "ujavoe…REDACTED",
+      "status": "fail: RuntimeError: recaptcha create: {'errorId': 1, 'errorCode': 'ERROR_TASK_NOT_SUPPORTED', 'errorDescription': '任务类型不正确或不受支持: 请检查 ReCaptc",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "anna-j…REDACTED",
+      "status": "fail: RuntimeError: recaptcha create: {'errorId': 1, 'errorCode': 'ERROR_TASK_NOT_SUPPORTED', 'errorDescription': '任务类型不正确或不受支持: 请检查 ReCaptc",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "feuer_…REDACTED",
+      "status": "fail: RuntimeError: recaptcha create: {'errorId': 1, 'errorCode': 'ERROR_TASK_NOT_SUPPORTED', 'errorDescription': '任务类型不正确或不受支持: 请检查 ReCaptc",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "bgpina…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "lpt-yo…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "domi.b…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "rohe9@…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "juweis…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "herr.z…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "hendri…REDACTED",
+      "status": "fail: NameError: name 'inject_tok' is not defined",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "shadi_…REDACTED",
+      "status": "fail: NameError: name 'inject_tok' is not defined",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "peterg…REDACTED",
+      "status": "fail: NameError: name 'inject_tok' is not defined",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "peace-…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "we-bre…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "ausend…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "mudder…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "jonas1…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "astruc…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "w-bjoe…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "n-spen…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "marvin…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "daniel…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "y-nepa…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "ullame…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "weicke…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "avidan…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "cafmen…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serper",
+      "email": "catha-…REDACTED",
+      "status": "fail: RuntimeError: google recaptcha not solved",
+      "key": "",
+      "verify": ""
+    },
+    {
+      "provider": "serpwrap",
+      "email": "r.trei…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": ""
+    },
+    {
+      "provider": "serpwrap",
+      "email": "hpwehl…REDACTED",
+      "status": "no-key",
+      "key": null,
+      "verify": ""
+    },
+    {
+      "provider": "serpwrap",
+      "email": "christ…REDACTED",
+      "status": "ok",
+      "key": "1957e3…REDACTED",
+      "verify": "credits 200 :: {\"credits\":{\"charged\":0,\"refunded\":0,\"remaining\":4250},\"email\":\"christ…REDACTED\",\"plan"
+    },
+    {
+      "provider": "you.com",
+      "email": "zweima…REDACTED",
+      "status": "ok",
+      "key": "ydc-sk…REDACTED",
+      "verify": {
+        "ok": true,
+        "status": 200,
+        "web_results": 3,
+        "endpoint": "POST https://ydc-index.io/v1/search"
+      }
+    },
+    {
+      "provider": "plane",
+      "email": "",
+      "status": "active",
+      "key": "sk-plane",
+      "verify": ""
+    },
+    {
+      "provider": "xai",
+      "email": "",
+      "status": "active",
+      "key": "g2a_7c…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "firecrawl",
+      "email": "",
+      "status": "active",
+      "key": "fc-fee…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "tavily",
+      "email": "",
+      "status": "active",
+      "key": "tvly-d…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "tavily2",
+      "email": "",
+      "status": "active",
+      "key": "tvly-d…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "exa",
+      "email": "",
+      "status": "active",
+      "key": "cfdd7c…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "exa2",
+      "email": "",
+      "status": "active",
+      "key": "e5443a…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "exa3",
+      "email": "",
+      "status": "active",
+      "key": "56f962…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "exa4",
+      "email": "",
+      "status": "active",
+      "key": "9e99d2…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "exa5",
+      "email": "",
+      "status": "active",
+      "key": "957d87…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "exa6",
+      "email": "",
+      "status": "active",
+      "key": "3f4297…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "jina",
+      "email": "",
+      "status": "active",
+      "key": "jina_f…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "keyfarm",
+      "email": "",
+      "status": "active",
+      "key": "keyfar…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "runinfra",
+      "email": "",
+      "status": "active",
+      "key": "RUNINF…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "hoplite",
+      "email": "",
+      "status": "active",
+      "key": "sk-hop…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "notion",
+      "email": "",
+      "status": "active",
+      "key": "sk-not…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "octopusx",
+      "email": "",
+      "status": "active",
+      "key": "octopu…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "jucodex",
+      "email": "",
+      "status": "active",
+      "key": "8RkMx2…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "vibebuild",
+      "email": "",
+      "status": "active",
+      "key": "536634…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "chuan",
+      "email": "",
+      "status": "active",
+      "key": "rotato…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "flushapi",
+      "email": "",
+      "status": "active",
+      "key": "rotato…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "moxin",
+      "email": "",
+      "status": "active",
+      "key": "ckREop…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "apilio",
+      "email": "",
+      "status": "active",
+      "key": "rotato…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "somaapi",
+      "email": "",
+      "status": "active",
+      "key": "rotato…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "oneorigin",
+      "email": "",
+      "status": "active",
+      "key": "rotato…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "gptge",
+      "email": "",
+      "status": "active",
+      "key": "rotato…REDACTED",
+      "verify": ""
+    },
+    {
+      "provider": "vveai",
+      "email": "",
+      "status": "active",
+      "key": "rotato…REDACTED",
+      "verify": ""
+    }
+  ]
+}
