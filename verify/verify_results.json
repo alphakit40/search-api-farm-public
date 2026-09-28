@@ -1,0 +1,101 @@
+[
+  {
+    "name": "exa",
+    "service": "exa",
+    "status": "OK",
+    "code": 200,
+    "note": "cost $0.007",
+    "key": "cfdd7c…REDACTED",
+    "ts": "2026-09-28T23:00:25"
+  },
+  {
+    "name": "exa2",
+    "service": "exa",
+    "status": "OK",
+    "code": 200,
+    "note": "cost $0.007",
+    "key": "e5443a…REDACTED",
+    "ts": "2026-09-28T23:00:25"
+  },
+  {
+    "name": "exa3",
+    "service": "exa",
+    "status": "OK",
+    "code": 200,
+    "note": "cost $0.007",
+    "key": "56f962…REDACTED",
+    "ts": "2026-09-28T23:00:25"
+  },
+  {
+    "name": "exa4",
+    "service": "exa",
+    "status": "OK",
+    "code": 200,
+    "note": "cost $0.007",
+    "key": "9e99d2…REDACTED",
+    "ts": "2026-09-28T23:00:25"
+  },
+  {
+    "name": "exa5",
+    "service": "exa",
+    "status": "OK",
+    "code": 200,
+    "note": "cost $0.007",
+    "key": "957d87…REDACTED",
+    "ts": "2026-09-28T23:00:25"
+  },
+  {
+    "name": "exa6",
+    "service": "exa",
+    "status": "OK",
+    "code": 200,
+    "note": "cost $0.007",
+    "key": "3f4297…REDACTED",
+    "ts": "2026-09-28T23:00:25"
+  },
+  {
+    "name": "tavily2",
+    "service": "tavily",
+    "status": "OK",
+    "code": 200,
+    "note": "results 9",
+    "key": "tvly-d…REDACTED",
+    "ts": "2026-09-28T23:00:25"
+  },
+  {
+    "name": "serpwrap",
+    "service": "serpwrap",
+    "status": "OK",
+    "code": 200,
+    "note": "credits remaining 4250",
+    "key": "1957e3…REDACTED",
+    "ts": "2026-09-28T23:00:25"
+  },
+  {
+    "name": "you.com",
+    "service": "you",
+    "status": "OK",
+    "code": 200,
+    "note": "web hits 10",
+    "key": "ydc-sk…REDACTED",
+    "ts": "2026-09-28T23:00:25"
+  },
+  {
+    "name": "firecrawl",
+    "service": "firecrawl",
+    "status": "OK",
+    "code": 200,
+    "note": "scrape ok, markdown 854 chars",
+    "key": "fc-a06…REDACTED",
+    "ts": "2026-09-28T23:00:25"
+  },
+  {
+    "name": "jina",
+    "service": "jina",
+    "status": "FAIL",
+    "code": 402,
+    "note": "{\"data\":null,\"code\":402,\"name\":\"InsufficientBalanceError\",\"status\":40203,\"message\":\"Account balance not enough",
+    "key": "jina_f…REDACTED",
+    "ts": "2026-09-28T23:00:25"
+  }
+]
