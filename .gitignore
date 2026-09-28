@@ -20,3 +20,9 @@ brd_creds.json
 __pycache__/
 *.pyc
 .DS_Store
+
+# research pipeline artifacts
+research/raw/
+research/verify/
+research/gap.json
+research/REPORT.md
