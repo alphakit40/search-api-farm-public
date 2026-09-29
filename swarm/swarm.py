@@ -76,7 +76,18 @@ def main():
 
     REPORT.write_text(json.dumps(results, ensure_ascii=False, indent=1), encoding="utf-8")
     ok = sum(r["ok"] for r in results)
-    print(f"[swarm] DONE {ok}/{len(results)} -> {REPORT.name} (--resume для докрутки)", flush=True)
+    for r in results:                      # ошибки тем — сразу в консоль, не только в json
+        if not r["ok"]:
+            print(f"  [fail] {r['topic']}: {r['err']}", flush=True)
+    total_src = 0
+    for r in results:                      # итог по источникам (raw jsonl, crash-safe счёт)
+        f = RESEARCH / "raw" / f"harvest_{r['topic']}.jsonl"
+        if f.exists():
+            n = sum(1 for _ in f.open(encoding="utf-8"))
+            total_src += n
+            print(f"  [src ] {r['topic']}: {n}", flush=True)
+    print(f"[swarm] DONE {ok}/{len(results)} тем, {total_src} источников -> {REPORT.name}"
+          " (--resume для докрутки)", flush=True)
 
 
 if __name__ == "__main__":
