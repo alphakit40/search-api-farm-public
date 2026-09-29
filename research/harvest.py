@@ -197,6 +197,12 @@ def main():
             print(f"  [{channel}] {got} new ({q[:50]})", flush=True)
             time.sleep(1)
     print(f"DONE {topic}: {n_new} new, {len(seen)} total", flush=True)
+    if n_new == 0 and not seen:
+        # Все каналы SKIP/пустые (нет ключей или RSTACK_PATH) — это НЕ «пустая тема».
+        # Громко, чтобы swarm --resume это подхватил, а не маскировал под успех.
+        print("WARNING: 0 new AND 0 total — проверь SEARCH_API_FARM_SECRETS/ключи "
+              "(SKIP-строки выше)", flush=True)
+        sys.exit(3)
 
 
 if __name__ == "__main__":
