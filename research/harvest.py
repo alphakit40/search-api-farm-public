@@ -27,6 +27,8 @@ RAW = ROOT / "raw"
 RSTACK = os.environ.get("RSTACK_PATH") or None
 
 _env_file = pathlib.Path(os.environ.get("SEARCH_API_FARM_SECRETS", ROOT / "secrets.env"))
+if not _env_file.exists() and (ROOT.parent / "secrets.env").exists():
+    _env_file = ROOT.parent / "secrets.env"  # ponytail: secrets.env живёт в корне репо, не в research/
 if _env_file.exists():
     for line in _env_file.read_text(encoding="utf-8").splitlines():
         if "=" in line and not line.startswith("#"):
