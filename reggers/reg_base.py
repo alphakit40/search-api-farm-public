@@ -289,7 +289,7 @@ async def launch(**kw):
     browser = await p.chromium.launch(
         headless=bool(kw.get("headless", False)),
         args=["--disable-blink-features=AutomationControlled", "--window-size=1280,900",
-              "--ignore-certificate-errors"],
+              "--ignore-certificate-errors"] + list(kw.get("args", [])),
         proxy=proxy)
     ctx = await browser.new_context(
         user_agent=("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
