@@ -2,9 +2,9 @@
 
 # 🔍 Search API Farm
 
-**Авторегер-комбайн поисковых / scraping API — 23 live-ключа на 7 сервисах**
+**Авторегер-комбайн поисковых / scraping API — 34 live-ключа на 7 сервисах**
 
-`Exa ×6` · `Search1API ×12` · `Tavily` · `SerpWrap` · `You.com` · `Firecrawl` · `Jina`
+`Exa ×6` · `Search1API ×23` · `Tavily` · `SerpWrap` · `You.com` · `Firecrawl` · `Jina`
 
 [📊 Dashboard](dashboard/index.html) · [📖 FULL_GUIDE](FULL_GUIDE.md) · [🧪 Live-verify](verify/verify_results.json)
 
@@ -23,11 +23,11 @@
 | **SerpWrap** | 🟢 | 1 | 4250 credits (+250/нед) | — | `reggers/serpwrap_reg.py` | одиночный |
 | **You.com** | 🟢 | 1 | $100 | — | `reggers/you_reg.py` | одиночный |
 | **Firecrawl** | 🟢 | 1 | 1000 credits (reset 27.10) | — | `reggers/firecrawl_magic.py` | одиночный |
-| **Search1API** | 🟢 | **12** | **1200 credits** (100/акк) | free tier | `reggers/s1_reg.py N` | batch, ~40%/прогон |
+| **Search1API** | 🟢 | **23** | **2300 credits** (100/акк) | free tier | `reggers/s1_reg.py N` | batch, ~50%/прогон |
 | **Jina** | 🟡 | 1 | $0 (trial IP-лимит) | — | — | ключ valid |
 
 **Проверка:** `python -u tools/verify_all.py` → 10/11 OK (Jina 402 — баланс trial исчерпан, ключ валиден);
-s1: `cd reggers && python -u s1_reg.py --verify` → **12/12 LIVE** (2026-09-29).
+s1: `cd reggers && python -u s1_reg.py --verify` → **23/23 LIVE** (2026-09-29).
 Плюс **харвест: 653 ключа** (370 LLM · 209 captcha · 51 search · 6 telegram · 16 misc) — `harvest/harvest_all.json`.
 
 ---
