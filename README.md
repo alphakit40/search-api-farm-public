@@ -2,9 +2,9 @@
 
 # 🔍 Search API Farm
 
-**Авторегер-комбайн поисковых / scraping API — 11 live-ключей на 6 сервисах**
+**Авторегер-комбайн поисковых / scraping API — 23 live-ключа на 7 сервисах**
 
-`Exa ×6` · `Tavily` · `SerpWrap` · `You.com` · `Firecrawl` · `Jina`
+`Exa ×6` · `Search1API ×12` · `Tavily` · `SerpWrap` · `You.com` · `Firecrawl` · `Jina`
 
 [📊 Dashboard](dashboard/index.html) · [📖 FULL_GUIDE](FULL_GUIDE.md) · [🧪 Live-verify](verify/verify_results.json)
 
@@ -14,7 +14,7 @@
 
 ---
 
-## ✅ Live-статус (2026-09-28, реальные API-вызовы `tools/verify_all.py`)
+## ✅ Live-статус (2026-09-29, реальные API-вызовы `tools/verify_all.py`)
 
 | Сервис | Статус | Ключей | Баланс | Тариф | Регер | Готовность |
 |--------|:------:|:------:|--------|-------|-------|-----------|
@@ -23,9 +23,11 @@
 | **SerpWrap** | 🟢 | 1 | 4250 credits (+250/нед) | — | `reggers/serpwrap_reg.py` | одиночный |
 | **You.com** | 🟢 | 1 | $100 | — | `reggers/you_reg.py` | одиночный |
 | **Firecrawl** | 🟢 | 1 | 1000 credits (reset 27.10) | — | `reggers/firecrawl_magic.py` | одиночный |
+| **Search1API** | 🟢 | **12** | **1200 credits** (100/акк) | free tier | `reggers/s1_reg.py N` | batch, ~40%/прогон |
 | **Jina** | 🟡 | 1 | $0 (trial IP-лимит) | — | — | ключ valid |
 
-**Проверка:** `python -u tools/verify_all.py` → 10/11 OK (Jina 402 — баланс trial исчерпан, ключ валиден).
+**Проверка:** `python -u tools/verify_all.py` → 10/11 OK (Jina 402 — баланс trial исчерпан, ключ валиден);
+s1: `cd reggers && python -u s1_reg.py --verify` → **12/12 LIVE** (2026-09-29).
 Плюс **харвест: 653 ключа** (370 LLM · 209 captcha · 51 search · 6 telegram · 16 misc) — `harvest/harvest_all.json`.
 
 ---
@@ -110,13 +112,21 @@ Signup → Turnstile → verify → dashboard → ключ → verify `GET serpw
 ### You.com — Descope OTP
 Signup → OTP (в письме — последнее из 3 чисел) → survey + Create modal на platform. **Грабли:** Descope shadow-root hijack, `isolated_context=False`; ключ в platform UI, НЕ в settings.
 
+### Search1API — Clerk FAPI + TanStack serverFn 🆕
+Регистрация **без браузера**: `clerk.s1.dev/v1/client` FAPI (form-urlencoded + `_clerk_js_version`) —
+sign_up → Turnstile-токен (YesCaptcha) → `prepare_verification` email_code → IMAP OTP →
+`attempt_verification`. Ключ: браузерный sign-in паролем → `/api-keys` → перехват
+serverFn `matchedKeys` (UUID, создаётся автоматически). **Грабли:** общий cookie-jar
+(`__client`) на ВСЕХ FAPI-вызовах; UA на `api.search1api.com` обязателен (иначе CF 1010);
+sitekey/`_clerk_js_version` ротируются — при 400 читать из трафика; в IPv6-only DNS сетях
+Turnstile-iframe резолвится в unroutable → `--host-resolver-rules` pin. **~90 с/акк, ~40%/прогон.**
+
 ---
 
 ## ⛔ Заблокированные цели (проверено, не тратить время)
 
 | Сервис | Блокер |
 |--------|--------|
-| Search1API | код Apodex не приходит / signup-формы нет на `app.s1.dev` |
 | Serper | reCAPTCHA (YesCaptcha: ERROR_TASK_NOT_SUPPORTED) |
 | SerpApi | 429 phone-verify (нужен 5sim-баланс) |
 | Brave | plan-wall на карточке |
@@ -146,8 +156,22 @@ Signup → OTP (в письме — последнее из 3 чисел) → su
 │   ├── results.json           ← добытые ключи (обрезаны)
 │   ├── exa_brd_batch.py       ← Exa batch-регер (главный)
 │   ├── exa_brd_browser.py     ← Exa одиночный + диагностика
+│   ├── s1_reg.py              ← Search1API batch: Clerk FAPI + serverFn (🆕)
 │   ├── firecrawl_magic.py     ├── tavily_reg2.py
 │   ├── serpwrap_reg.py        └── you_reg.py
+├── research/
+│   ├── README.md              ← мультиканальный ресёрч-тулкит + верификация
+│   ├── STACK.md               ← курируемый стек: фреймворки DR, 4 swarm-паттерна, тиры API
+│   └── harvest/digest/cite_check/adversarial_critic/gap_backedge .py
+├── swarm/
+│   ├── README.md              ← fan-out паттерн: когда правильный, когда supervisor
+│   └── swarm.py               ← N воркеров × темы harvest.py, crash-safe, --resume
+├── agents/
+│   ├── research-agent.md      ← автономный ресёрч-оператор
+│   └── swarm-coordinator.md   ← оркестратор роя ресёрч-агентов (🆕)
+├── skills/
+│   ├── ebanut-research/SKILL.md    ← методология «ебанутого ресёрча»
+│   └── deep-research-swarm/SKILL.md ← веер воркеров + verify-цепочка (🆕)
 └── tools/
     ├── verify_all.py          ← live-verify всех ключей одним прогоном
     ├── exa_key_verify.py      ├── fc_verify.py
@@ -158,6 +182,29 @@ Signup → OTP (в письме — последнее из 3 чисел) → su
 ```
 
 **Правила выживания:** инлайн HTTP в bash режется → все запросы файлом `.py`; `wait_verify` синхронная (кортеж); ключи проверять live-вызовом, не DOM; фоновые job-ы не поллить.
+
+---
+
+## 🔬 Research-стек: глубокий ресёрч роем
+
+Вторая половина репо — не ключи, а то, что их тратит: мультиканальный
+ресёрч-пайплайн с обязательной верификацией и swarm-оркестрацией.
+
+```
+topics.json → swarm/swarm.py (N воркеров, crash-safe) → research/harvest.py
+  → digest.py → REPORT.md → cite_check → adversarial_critic → gap_backedge ×2
+```
+
+| Что | Где | Суть |
+|---|---|---|
+| Курируемый стек 2026-09 | `research/STACK.md` | какие DR-фреймворки живы (GPT-Researcher / open_deep_research / smolagents), 4 swarm-паттерна, тиры search-API — с вердиктом «что берём» |
+| Fan-out оркестратор | `swarm/swarm.py` | ThreadPool × subprocess-воркеры, падение паркует тему, `--resume` докручивает; ноль зависимостей |
+| Агент-координатор | `agents/swarm-coordinator.md` | контракт роера: анти-паттерны (циклы handoff, сырые handoff-дампы), invocation, env |
+| Скилл | `skills/deep-research-swarm/SKILL.md` | когда роить, сколько воркеров (=RPM пула ключей), verify-цепочка |
+
+**Выбор паттерна:** темы независимы → fan-out без LLM-супервизора
+(merge детерминированный). Зависимы → supervisor с капом handoffs —
+разбор в `STACK.md` §2.
 
 ---
 
@@ -182,6 +229,6 @@ Signup → OTP (в письме — последнее из 3 чисел) → su
 
 <div align="center">
 
-**Канал: [AlStack](https://t.me/AlStack)** · public · секретов в репо нет · обновлено 2026-09-28
+**Канал: [AlStack](https://t.me/AlStack)** · public · секретов в репо нет · обновлено 2026-09-29
 
 </div>
